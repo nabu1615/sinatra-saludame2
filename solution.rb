@@ -1,5 +1,5 @@
 require 'sinatra'
 
-get '/make/:name' do
+get '/makers/:name' do
 	erb :index, { :locals => params }
 end
